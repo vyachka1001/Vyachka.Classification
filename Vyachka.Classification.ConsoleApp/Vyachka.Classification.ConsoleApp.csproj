@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vyachka.Classification.Core\Vyachka.Classification.Core.csproj" />
+    <ProjectReference Include="..\Vyachka.Classification.FileParsing\Vyachka.Classification.FileParsing.csproj" />
+  </ItemGroup>
+
+</Project>
